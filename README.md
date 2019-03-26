@@ -4,7 +4,7 @@ Project - Favourite Movite, TV Show webpage
 Project Description:
 
         This project is about building a website that hosts our favourite movie's & tvshows. 
-		Of course in the one that I am working on will display my favourite
+	Of course in the one that I am working on will display my favourite
         movies & tv shows :-). Let's have a look, shall we?
 
 What's Included:

@@ -19,8 +19,8 @@ To Run This Project:
 
         To run this project on your computer, python 2.7.15 installation is needed. Create a folder 
 	named Video_Website, copy the files to the folder and run #python entertainment_center.py & BOOM!! 
-	The webpage is at your service where you can view your favorite (in this case, ,my favourite) movie title, poster,
-	trailer link on youtube, duration, rating & so on.
+	The webpage is at your service where you can view your favorite (in this case, ,my favourite)
+	movie title, poster, trailer link on youtube, duration, rating & so on.
 
 Creator:
 

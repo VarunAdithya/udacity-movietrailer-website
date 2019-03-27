@@ -3,7 +3,9 @@ import os
 import re
 
 
-# Styles and scripting for the page
+'''
+Styles and scripting for the page
+'''
 main_page_head = '''
 <!DOCTYPE html>
 <html lang="en">
@@ -87,7 +89,9 @@ main_page_head = '''
 '''
 
 
-# The main page layout and title bar
+'''
+The main page layout and title bar
+'''
 main_page_content = '''
   <body>
     <!-- Trailer Video Modal -->
@@ -121,7 +125,9 @@ main_page_content = '''
 '''
 
 
-# A single movie entry html template
+'''
+A single movie entry html template
+'''
 movie_tile_content = '''
 <div class="col-md-6 col-lg-4 movie-tile" data-trailer-youtube-id="{trailer_youtube_id}" data-toggle="modal" data-target="#trailer">
     <div class="text-center">
@@ -136,10 +142,14 @@ movie_tile_content = '''
 '''
 
 def create_movie_tiles_content(movies):
-    # The HTML content for this section of the page
+    '''
+    The HTML content for this section of the page
+    '''
     content = ''
     for movie in movies:
-        # Extract the youtube ID from the url
+        '''
+        Extract the youtube ID from the url
+        '''
         youtube_id_match = re.search(
             r'(?<=v=)[^&#]+', movie.trailer_youtube_url)
         youtube_id_match = youtube_id_match or re.search(
@@ -147,7 +157,9 @@ def create_movie_tiles_content(movies):
         trailer_youtube_id = (youtube_id_match.group(0) if youtube_id_match
                               else None)
 
-        # Append the tile for the movie with its content filled in
+        '''
+        Append the tile for the movie with its content filled in
+        '''
         content += movie_tile_content.format(
             movie_title=movie.title,
             movie_storyline=movie.storyline, 
@@ -161,17 +173,25 @@ def create_movie_tiles_content(movies):
 
 
 def open_movies_page(movies):
-    # Create or overwrite the output file
+    '''
+    Create or overwrite the output file
+    '''
     output_file = open('fresh_tomatoes.html', 'w')
 
-    # Replace the movie tiles placeholder generated content
+    '''
+    Replace the movie tiles placeholder generated content
+    '''
     rendered_content = main_page_content.format(
         movie_tiles=create_movie_tiles_content(movies))
 
-    # Output the file
+    '''
+    Output the file
+    '''
     output_file.write(main_page_head + rendered_content)
     output_file.close()
 
-    # open the output file in the browser (in a new tab, if possible)
+    '''
+    open the output file in the browser (in a new tab, if possible)
+    '''
     url = os.path.abspath(output_file.name)
     webbrowser.open('file://' + url, new=2)

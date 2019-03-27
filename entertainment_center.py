@@ -10,7 +10,7 @@ toy_story = media.Movie(
     "150 mins",
     "Animation, Adventure, Comedy",
     "G",
-    "https://upload.wikimedia.org/wikipedia/en/thumb/1/13/Toy_Story.jpg/220px-Toy_Story.jpg",
+    "https://bit.ly/1OHWo0L",
     "https://www.youtube.com/watch?v=vwyZH85NQC4")
 
 
@@ -20,7 +20,7 @@ avatar = media.Movie(
     "200 mins",
     "Science Fiction, Action, Adventure, Fantasy",
     "PG-13",
-    "https://upload.wikimedia.org/wikipedia/en/thumb/b/b0/Avatar-Teaser-Poster.jpg/220px-Avatar-Teaser-Poster.jpg",
+    "https://bit.ly/1oUhcTQ",
     "https://www.youtube.com/watch?v=5PSNL1qE6VY")
 
 
@@ -30,7 +30,7 @@ heat = media.Movie(
     "180 mins",
     "Crime, Thriller, Action",
     "R",
-    "https://upload.wikimedia.org/wikipedia/en/6/6c/Heatposter.jpg",
+    "https://bit.ly/2V020JM",
     "https://www.youtube.com/watch?v=2GfZl4kuVNI")
 
 
@@ -40,7 +40,7 @@ miami_vice = media.TvShow(
     "60 mins",
     "Crime, Action, Adventure",
     "R",
-    "https://upload.wikimedia.org/wikipedia/en/thumb/2/25/Miami_Vice_Season_2_Logo_sm.jpg/250px-Miami_Vice_Season_2_Logo_sm.jpg",
+    "https://bit.ly/2FE188w",
     "https://www.youtube.com/watch?v=b6OymLS64Jo")
 
 
@@ -50,7 +50,7 @@ knight_rider = media.TvShow(
     "60 mins",
     "R",
     "Action, Crime",
-    "https://upload.wikimedia.org/wikipedia/en/thumb/3/31/Knightlogo.png/250px-Knightlogo.png",
+    "https://bit.ly/2FF6OPS",
     "https://www.youtube.com/watch?v=oNyXYPhnUIs")
 
 
@@ -60,7 +60,7 @@ street_hawk = media.TvShow(
     "60 mins",
     "Superhero, Adventure, Action",
     "R",
-    "https://m.media-amazon.com/images/M/MV5BMTU2MzQ1MDEzMF5BMl5BanBnXkFtZTcwMzUyMTkxMQ@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+    "https://bit.ly/2uvXDuI",
     "https://www.youtube.com/watch?v=sP_zFKkJgvY")
 
 

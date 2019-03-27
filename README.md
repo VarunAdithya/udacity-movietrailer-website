@@ -3,8 +3,8 @@ Project - Favourite Movite, TV Show webpage
 
 Project Description:
 
-        This project is about building a website that hosts our favourite movie's & tvshows.
-	Of course in the one that I am working on will display my favourite
+        This project is about building a website that hosts our favourite movie's
+	& tvshows. Of course in the one that I am working on will display my favourite
         movies & tv shows: -). Let's have a look, shall we?
 
 What's Included:
@@ -17,10 +17,11 @@ What's Included:
 
 To Run This Project:
 
-        To run this project on your computer, python 2.7.15 installation is needed. Create a folder
-	# python entertainment_center.py & BOOM!!
-	named Video_Website, copy the files to the folder and run
-	The webpage is at your service where you can view your favorite(in this case, , my favourite)
+        To run this project on your computer, python 2.7.15 installation is needed.
+	Create a folder & copy the files mentioned above and run the python file show below. 
+	# python entertainment_center.py
+	BOOM!!!
+	The webpage is at your service where you can view your favorite(my favourite)
 	movie title, poster, trailer link on youtube, duration, rating & so on.
 
 Creator:
